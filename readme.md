@@ -34,6 +34,7 @@ git clone https://github.com/miodine/mission_coordination_tp.git
 ```bash 
 cd mission_coordination_tp/catkin_ws/
 catkin_make clean
+catkin_make
 source devel/setup.bash
 ```
 3. Testing procedures: 

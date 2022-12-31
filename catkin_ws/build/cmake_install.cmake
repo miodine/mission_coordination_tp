@@ -131,9 +131,9 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/miodine/Desktop/mission_coordination_tp/catkin_ws/build/gtest/cmake_install.cmake")
-  include("/home/miodine/Desktop/mission_coordination_tp/catkin_ws/build/Mission_Coordination_project/evry_project_strategy/cmake_install.cmake")
-  include("/home/miodine/Desktop/mission_coordination_tp/catkin_ws/build/Mission_Coordination_project/evry_project_description/cmake_install.cmake")
-  include("/home/miodine/Desktop/mission_coordination_tp/catkin_ws/build/Mission_Coordination_project/evry_project_plugins/cmake_install.cmake")
+  include("/home/miodine/Desktop/mission_coordination_tp/catkin_ws/build/evry_project_strategy/cmake_install.cmake")
+  include("/home/miodine/Desktop/mission_coordination_tp/catkin_ws/build/evry_project_description/cmake_install.cmake")
+  include("/home/miodine/Desktop/mission_coordination_tp/catkin_ws/build/evry_project_plugins/cmake_install.cmake")
 
 endif()
 

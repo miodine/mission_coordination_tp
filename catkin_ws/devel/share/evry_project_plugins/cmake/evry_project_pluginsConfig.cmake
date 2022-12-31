@@ -67,7 +67,7 @@ set(evry_project_plugins_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(evry_project_plugins_SOURCE_PREFIX /home/miodine/Desktop/mission_coordination_tp/catkin_ws/src/Mission_Coordination_project/evry_project_plugins)
+  set(evry_project_plugins_SOURCE_PREFIX /home/miodine/Desktop/mission_coordination_tp/catkin_ws/src/evry_project_plugins)
   set(evry_project_plugins_DEVEL_PREFIX /home/miodine/Desktop/mission_coordination_tp/catkin_ws/devel)
   set(evry_project_plugins_INSTALL_PREFIX "")
   set(evry_project_plugins_PREFIX ${evry_project_plugins_DEVEL_PREFIX})
@@ -110,7 +110,7 @@ if(NOT "/home/miodine/Desktop/mission_coordination_tp/catkin_ws/devel/include " 
         message(FATAL_ERROR "Project 'evry_project_plugins' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'evry_project_plugins' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/miodine/Desktop/mission_coordination_tp/catkin_ws/src/Mission_Coordination_project/evry_project_plugins/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'evry_project_plugins' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/miodine/Desktop/mission_coordination_tp/catkin_ws/src/evry_project_plugins/${idir}'.  ${_report}")
     endif()
     _list_append_unique(evry_project_plugins_INCLUDE_DIRS ${include})
   endforeach()
