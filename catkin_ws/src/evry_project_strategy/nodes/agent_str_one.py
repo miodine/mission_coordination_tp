@@ -157,7 +157,7 @@ class robotPID:
             return 0
 
         proportional_term = e*self.k_v_p
-        integral_term = self.k_v_i*(e+self.e_v_z_1)
+        integral_term = self.k_v_i*(e+self.e_v_z_1)*self.dt
         derivative_term = self.k_v_d*(e-self.e_v_z_1)/self.dt
 
         self.e_v_z_1 = e
@@ -174,7 +174,7 @@ class robotPID:
             return 0
 
         proportional_term = e*self.k_a_p
-        integral_term = self.k_a_i*(e+self.e_a_z_1)
+        integral_term = self.k_a_i*(e+self.e_a_z_1)*self.dt
         derivative_term = self.k_a_d*(e-self.e_a_z_1)/self.dt
 
         self.e_a_z_1 = e
